@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Haltestelle - IBK</string>
+
+    <string name="address">Angerzellgasse 10, 6020 Innsbruck</string>
+    <string name="opening_hours">Mo-Sa 20.00 - 02.00</string>
+    <string name="phone">0676 6973636</string>
+    <string name="description">Start your evening at the Haltestelle ("bus stop") shot bar. You can choose between more than 120 different shots. The special thing about this bar is that you can order the so called bus-line(s): a bus-line consist of a number of very creative shots. For example the line for medical-students includes shots called blood, x-ray, anatomy!</string>
+
+</resources>
