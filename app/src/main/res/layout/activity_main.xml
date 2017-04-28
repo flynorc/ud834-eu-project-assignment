@@ -10,7 +10,7 @@
     <LinearLayout
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
 
         android:orientation="vertical"
         tools:context="com.flynorc.userinterfaceproject.MainActivity">
@@ -34,37 +34,28 @@
 
 
         <!-- address -->
-        <LinearLayout style="@style/DetailsElement">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_map_marker_white_18dp" />
-            <TextView
-                style="@style/DetailsText"
-                android:text="@string/address" />
-        </LinearLayout>
+        <TextView
+            style="@style/DetailsText"
+            android:text="@string/address"
+            android:drawableStart="@drawable/ic_map_marker_white_18dp"
+            android:drawableLeft="@drawable/ic_map_marker_white_18dp" />
+
 
         <!-- opening times -->
-        <LinearLayout style="@style/DetailsElement">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_alarm_check_white_18dp" />
-            <TextView
-                style="@style/DetailsText"
-                android:text="@string/opening_hours" />
-        </LinearLayout>
+        <TextView
+            style="@style/DetailsText"
+            android:text="@string/opening_hours"
+            android:drawableStart="@drawable/ic_alarm_check_white_18dp"
+            android:drawableLeft="@drawable/ic_alarm_check_white_18dp" />
+
+
 
         <!-- phone -->
-        <LinearLayout style="@style/DetailsElement">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_phone_classic_white_18dp" />
-            <TextView
-                style="@style/DetailsText"
-                android:text="@string/phone" />
-        </LinearLayout>
+        <TextView
+            style="@style/DetailsText"
+            android:text="@string/phone"
+            android:drawableStart="@drawable/ic_phone_classic_white_18dp"
+            android:drawableLeft="@drawable/ic_phone_classic_white_18dp" />
 
         <!-- description -->
         <TextView
