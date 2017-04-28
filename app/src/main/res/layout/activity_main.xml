@@ -36,6 +36,7 @@
         <!-- address -->
         <TextView
             style="@style/DetailsText"
+            android:id="@+id/address_view"
             android:text="@string/address"
             android:drawableStart="@drawable/ic_map_marker_white_18dp"
             android:drawableLeft="@drawable/ic_map_marker_white_18dp" />
@@ -55,7 +56,8 @@
             style="@style/DetailsText"
             android:text="@string/phone"
             android:drawableStart="@drawable/ic_phone_classic_white_18dp"
-            android:drawableLeft="@drawable/ic_phone_classic_white_18dp" />
+            android:drawableLeft="@drawable/ic_phone_classic_white_18dp"
+            android:autoLink="phone"/>
 
         <!-- description -->
         <TextView
